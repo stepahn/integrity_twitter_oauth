@@ -1,0 +1,15 @@
+%p.normal
+  %label{ :for => "integrity_twitter_notifier_email" } ConsumerToken
+  %input.text#integrity_twitter_notifier_email{ :name => "notifiers[Twitter][consumer_token]", :value => config["consumer_token"], :type => "text" }
+
+%p.normal
+  %label{ :for => "integrity_twitter_notifier_pass" } ConsumerSecret
+  %input.text#integrity_twitter_notifier_pass{ :name => "notifiers[Twitter][consumer_secret]", :value => config["consumer_secret"], :type => "text" }
+
+%p.normal
+  %label{ :for => "integrity_twitter_notifier_email" } AccessToken
+  %input.text#integrity_twitter_notifier_email{ :name => "notifiers[Twitter][access_token]", :value => config["access_token"], :type => "text" }
+
+%p.normal
+  %label{ :for => "integrity_twitter_notifier_pass" } AccessSecret
+  %input.text#integrity_twitter_notifier_pass{ :name => "notifiers[Twitter][access_secret]", :value => config["access_secret"], :type => "text" }
